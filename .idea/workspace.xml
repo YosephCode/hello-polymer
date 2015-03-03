@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e600f04-8f54-4f8c-b2f6-a7d14a850739" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greeting-tag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greeting-tag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/age-slider.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-element.html" afterPath="$PROJECT_DIR$/my-element.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hello-polymer.iws" />
@@ -30,12 +28,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.133333" vertical-offset="0" max-vertical-offset="575">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.6244344" vertical-offset="0" max-vertical-offset="713">
+              <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="age-slider.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/age-slider.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0666666" vertical-offset="0" max-vertical-offset="736">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="greeting-tag.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="greeting-tag.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/greeting-tag.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6822034" vertical-offset="0" max-vertical-offset="529">
-              <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -65,8 +75,8 @@
       <file leaf-file-name="my-component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5333333" vertical-offset="0" max-vertical-offset="414">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state vertical-scroll-proportion="-2.3" vertical-offset="0" max-vertical-offset="414">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -93,8 +103,9 @@
         <option value="$PROJECT_DIR$/my-component.html" />
         <option value="$PROJECT_DIR$/my-element.html" />
         <option value="$PROJECT_DIR$/greeting-tag.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/greeting-tag.js" />
+        <option value="$PROJECT_DIR$/age-slider.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -145,20 +156,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hello-polymer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hello-polymer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hello-polymer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,7 +229,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -245,7 +242,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -300,26 +297,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-component.html">
+    <entry file="file://$PROJECT_DIR$/bower_components/paper-tabs/paper-tabs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5333333" vertical-offset="0" max-vertical-offset="414">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1978">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-element.html">
+    <entry file="file://$PROJECT_DIR$/bower_components/paper-tabs/paper-tab.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.93333334" vertical-offset="363" max-vertical-offset="1610">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state vertical-scroll-proportion="-3.5791855" vertical-offset="1582" max-vertical-offset="2024">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/bower_components/core-selector/core-selector.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.133333" vertical-offset="0" max-vertical-offset="575">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.7319347" vertical-offset="12175" max-vertical-offset="12742">
+          <caret line="543" column="7" selection-start-line="543" selection-start-column="7" selection-end-line="543" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/paper-tabs/paper-tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.205129" vertical-offset="6448" max-vertical-offset="8257">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/core-pages/core-pages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.60181" vertical-offset="708" max-vertical-offset="1150">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -334,11 +347,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/greeting-tag.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6822034" vertical-offset="0" max-vertical-offset="529">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3" vertical-offset="0" max-vertical-offset="414">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-element.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.93333334" vertical-offset="363" max-vertical-offset="1610">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/age-slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0666666" vertical-offset="0" max-vertical-offset="736">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#template#0;n#polymer-element#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6244344" vertical-offset="0" max-vertical-offset="713">
+          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
