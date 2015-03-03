@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
+    <!-- 1. Load the platform support before any code that touches the DOM -->
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+    <!-- 2. Load the component using an HTML Import -->
+    <link rel="import" href="my-element.html">
+    <link rel="import" href="my-component.html">
     <meta charset="UTF-8">
     <title></title>
 </head>
 <body>
-
+    <!-- Declare the element by its tag. -->
+    <!--<my-element></my-element><br>-->
+    <my-component></my-component>
 </body>
 </html>

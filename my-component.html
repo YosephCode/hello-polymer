@@ -1,0 +1,13 @@
+<polymer-element name="my-component">
+    <template>
+        <my-element id="globals"></my-element>
+        <div>{{$.globals.hello}}</div>
+    </template>
+    <script>
+        Polymer({
+           ready: function(){
+               console.log("testando: " + this.$.globals.hello);
+           }
+        });
+    </script>
+</polymer-element>

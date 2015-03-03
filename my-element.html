@@ -1,10 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/core-ajax/core-ajax.html">
+<polymer-element name="my-element">
+    <template>
+        <div id="container">Pegue aqui.</div>
+        <span><b>{{hello}}</b>. This is my shadow DOM.</span>
+        <div id="listAll"></div>
+        <!--
+        <core-ajax url="http://example.com/json" auto response="{{resp}}"></core-ajax>
+        <textarea value="{{resp}}"></textarea>
+        -->
+    </template>
+    <script>
+        (function(){
+            var hello = "Hello MUNDO";
+            var list = ["numUm","numDois","numTrês"];
+            var text = "";
+            Polymer('my-element', {
+                ready: function() {
+                    this.hello = hello;
 
-</body>
-</html>
+                    this.list = list;
+                    for (var i = 0; i < this.list.length; i++){
+                        console.log(list[i]);
+                        text += list[i] + "<br>";
+                    }
+                    var inner = this.$.listAll;
+                    inner.innerHTML = text;
+
+                    var myContainer = this.$.container;
+                    myContainer.textContent = "Mudei o texto dentro do Polymer()";
+
+                }
+            });
+        })();
+    </script>
+</polymer-element>
