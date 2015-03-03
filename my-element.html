@@ -1,10 +1,13 @@
 <link rel="import" href="bower_components/polymer/polymer.html">
 <link rel="import" href="bower_components/core-ajax/core-ajax.html">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
 <polymer-element name="my-element">
     <template>
         <div id="container">Pegue aqui.</div>
         <span><b>{{hello}}</b>. This is my shadow DOM.</span>
         <div id="listAll"></div>
+        <button on-tap="{{toggle}}"> Toggle </button>
+        <p id="secret"> secret </p>
         <!--
         <core-ajax url="http://example.com/json" auto response="{{resp}}"></core-ajax>
         <textarea value="{{resp}}"></textarea>
@@ -14,6 +17,13 @@
         (function(){
             var hello = "Hello MUNDO";
             var list = ["numUm","numDois","numTrês"];
+            var objectTest = {"array": [1,2,3], "boolean": true, "null": null, "number": 123,
+                "object": {"1": "b",
+                        "2": "d",
+                        "3": "f"
+                },
+                "string": "Hello World"
+            };
             var text = "";
             Polymer('my-element', {
                 ready: function() {
@@ -21,7 +31,6 @@
 
                     this.list = list;
                     for (var i = 0; i < this.list.length; i++){
-                        console.log(list[i]);
                         text += list[i] + "<br>";
                     }
                     var inner = this.$.listAll;
@@ -30,6 +39,23 @@
                     var myContainer = this.$.container;
                     myContainer.textContent = "Mudei o texto dentro do Polymer()";
 
+                    this.objectTest = objectTest;
+                    var x;
+                    var txt = "";
+                    var innerScret = this.$.secret;
+                    console.log(this.objectTest.object);
+                    for(x in this.objectTest.object){
+                        txt += this.objectTest.object[x] + "<br>";
+                        console.log(this.objectTest.object[x]);
+                    }
+                    innerScret.innerHTML = txt;
+                },
+                toggle: function() {
+                    if ($(this.$.secret).css("display") == "block") {
+                        $(this.$.secret).hide();
+                    } else {
+                        $(this.$.secret).show();
+                    }
                 }
             });
         })();
