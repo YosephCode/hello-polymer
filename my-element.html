@@ -45,7 +45,9 @@
                     var innerScret = this.$.secret;
                     console.log(this.objectTest.object);
                     for(x in this.objectTest.object){
-                        txt += this.objectTest.object[x] + "<br>";
+                        if(this.objectTest.boolean){
+                            txt += this.objectTest.object[x] + "<br>";
+                        }
                         console.log(this.objectTest.object[x]);
                     }
                     innerScret.innerHTML = txt;
