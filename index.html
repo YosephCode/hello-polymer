@@ -14,13 +14,68 @@
     <meta charset="UTF-8">
     <title></title>
 </head>
-<body>
+<body fullbleed vertical layout style="background-color: lemonchiffon;">
+<style>
+    .comun{
+        width: 20%;
+        text-align: center;
+    }
+    [flex]{
+        text-align: center;
+    }
+    [horizontal]{
+        background-color: gray;
+    }
+    [vertical]{
+        background-color: lightblue;
+    }
+    .vert{
+        background-color: khaki;
+        height: 50px;
+    }
+    .rodape{
+        background-color: lightcoral;
+    }
+</style>
     <!-- Declare the element by its tag. -->
     <!--<my-element></my-element><br>-->
     <!--<greeting-tag></greeting-tag>
     <my-component></my-component>-->
     <age-slider></age-slider>
-
-
+    <div horizontal layout>
+        <div class="comun"><a href="#">One</a></div>
+        <div class="comun"><a href="#">One-two</a></div>
+        <div flex><a href="#">One-three</a></div>
+        <div class="comun"><a href="#">One-four</a></div>
+        <div class="comun"><a href="#">One-five</a></div>
+    </div>
+    <div vertical center-justified layout style="height:250px">
+        <div class="vert">Alpha</div>
+        <div flex>Beta (flex)</div>
+        <div class="vert">Gamma</div>
+    </div>
+    <div horizontal center-justified layout>
+        <div class="rodape" flex two>Alpha</div>
+        <div class="rodape" flex four>Beta</div>
+        <div class="rodape" flex two>Gamma</div>
+    </div>
+    <div relative style="height: 100px;">
+        <div fit style="background-color: #000;color: white">Fit</div>
+    </div>
+    <div horizontal layout style="background-color: lightsalmon">
+        <div flex self-start>Alpha</div>
+        <div flex self-center>Beta</div>
+        <div flex self-end>Gamma</div>
+        <div flex self-stretch>Delta</div>
+    </div>
+    <div horizontal around-justified layout style="background-color: gainsboro">
+        <div>around-justified</div>
+        <div>around-justified</div>
+    </div>
+    <div horizontal justified layout style="background-color: lightgray">
+        <div>justified</div>
+        <div>justified</div>
+        <div>justified</div>
+    </div>
 </body>
 </html>
